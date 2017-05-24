@@ -42,7 +42,7 @@ puntaje = [jug[0], jug[1], jug[2]]
 print puntaje
 
 f = lambda a,b: a if (a > b) else b
-print "Quien gano mas dinero: ",(reduce(f, puntaje))
+print "El jugador que gano mas dinero: ",(reduce(f, puntaje))
 
 GANO = lambda c,d: c if (c < d) else d
-print "Quien perdio mas dinero: ",(reduce(GANO, puntaje))
+print "El jugador que perdio mas dinero: ",(reduce(GANO, puntaje))
